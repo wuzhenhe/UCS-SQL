@@ -1,0 +1,11 @@
+shot_select_prompt = """
+Select three questions that are closest in question phrasing to the target question from the source questions and return the list which is contain the three questions ids. Format of the returned list is as follows:
+[3, 672, 19]
+
+target question: 
+{question}
+
+source question:
+{source_question}
+returned list:
+"""
